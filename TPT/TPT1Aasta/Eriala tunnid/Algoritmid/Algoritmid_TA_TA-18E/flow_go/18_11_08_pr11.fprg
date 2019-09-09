@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-08 03:48:05 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTA4OzAyOjQ0OjMzIFBNOzI3MjQ="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTA4OzAyOjQ0OjM2IFBNOzE7b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTAxOzAyOjMyOjIwIFBNOzE4XzExXzAxX3ByMTAuZnByZzs3MDQ4"/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTA4OzAzOjQ4OjA1IFBNOzM7MjgzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arvud" type="Integer" array="True" size="50"/>
+            <declare name="k" type="Integer" array="False" size=""/>
+            <for variable="k" start="0" end="49" direction="inc" step="1">
+                <assign variable="arvud[k]" expression="random(90) + 10"/>
+            </for>
+            <output expression="&quot;Formeeritud massiiv:&quot;" newline="False"/>
+            <for variable="k" start="0" end="49" direction="inc" step="1">
+                <output expression="&quot; &quot; &amp; arvud[k]" newline="False"/>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+            <declare name="i1, i2, temp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Mullimeetod &quot;" newline="True"/>
+            <declare name="tunnus" type="Boolean" array="False" size=""/>
+            <do expression="tunnus = true">
+                <assign variable="tunnus" expression="false"/>
+                <for variable="i1" start="0" end="48" direction="inc" step="1">
+                    <assign variable="i2" expression="i1 + 1"/>
+                    <if expression="arvud[i2] &lt; arvud[i1]">
+                        <then>
+                            <assign variable="temp" expression="arvud[i1]"/>
+                            <assign variable="arvud[i1]" expression="arvud[i2]"/>
+                            <assign variable="arvud[i2]" expression="temp"/>
+                            <assign variable="tunnus" expression="true"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </do>
+            <output expression="&quot;J&#228;rjestatud massiiv: &quot;" newline="True"/>
+            <for variable="k" start="0" end="49" direction="inc" step="1">
+                <output expression="&quot; &quot; &amp; arvud[k]" newline="False"/>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

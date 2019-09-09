@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-29 03:30:52 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTIyOzAyOjU4OjI4IFBNOzI3Mjk="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTIyOzAyOjU4OjMzIFBNOzE7b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTIyOzAyOjM0OjM2IFBNOzE4XzExXzIyX3ByMTMuZnByZzs3MDY0"/>
+        <attribute name="edited" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTEtMjg7MDg6MDc6MTcgUE07NjsyOTE1"/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTI5OzAzOjMwOjUyIFBNOzY7MjgzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Pean siis leidma k&#245;ige v&#228;iksema ja k&#245;ige suurema arvu vahel olevate numbrite summa suvalises arrays&#13;&#10;Pean leidma k&#245;igepealt k&#245;ige v&#228;iksema ja k&#245;ige suurema arvu&#13;&#10;Siis pean v&#245;tma nende vahele j&#228;&#228;vad arvud ja need liitma&#13;&#10;Kui on kaks samasugust arvu siis v&#245;tab k&#245;ige kaugemal oleva arvu&#13;&#10;"/>
+            <declare name="arvud" type="Integer" array="True" size="41"/>
+            <declare name="k, summa, mink, kmin, maxk, kmax" type="Integer" array="False" size=""/>
+            <assign variable="summa" expression="0"/>
+            <assign variable="kmin" expression="0"/>
+            <assign variable="kmax" expression="0"/>
+            <for variable="k" start="0" end="40" direction="inc" step="1">
+                <assign variable="arvud[k]" expression="random(41) - 20"/>
+                <output expression="&quot; &quot; &amp; arvud[k]" newline="False"/>
+            </for>
+            <assign variable="mink" expression="arvud[0]"/>
+            <assign variable="maxk" expression="arvud[0]"/>
+            <for variable="k" start="0" end="40" direction="inc" step="1">
+                <if expression="mink &gt; arvud[k]">
+                    <then>
+                        <assign variable="mink" expression="arvud[k]"/>
+                        <assign variable="kmin" expression="k"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="maxk &lt; arvud[k]">
+                    <then>
+                        <assign variable="maxk" expression="arvud[k]"/>
+                        <assign variable="kmax" expression="k"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+            <output expression="&quot;Minimaalse arvu koht jadas on &quot; &amp; kmin &amp; &quot; ja see arv on &quot; &amp; mink" newline="True"/>
+            <output expression="&quot;Maksimaalse arvu koht jadas on &quot; &amp; kmax &amp; &quot; ja see arv on &quot; &amp; maxk" newline="True"/>
+            <if expression="kmin &gt; kmax">
+                <then>
+                    <assign variable="k" expression="kmin"/>
+                    <assign variable="kmin" expression="kmax"/>
+                    <assign variable="kmax" expression="k"/>
+                </then>
+                <else/>
+            </if>
+            <for variable="k" start="kmin + 1" end="kmax - 1" direction="inc" step="1">
+                <assign variable="summa" expression="summa + arvud[k]"/>
+            </for>
+            <output expression="&quot;Indeksite &quot; &amp; kmin &amp; &quot; ja &quot; &amp; kmax &amp; &quot; vaheliste arvude summa on &quot; &amp; summa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

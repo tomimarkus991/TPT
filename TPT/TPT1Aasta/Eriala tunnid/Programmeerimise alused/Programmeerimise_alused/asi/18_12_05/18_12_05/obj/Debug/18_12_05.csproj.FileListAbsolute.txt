@@ -1,0 +1,7 @@
+C:\Users\opilane\source\repos\18_12_05\18_12_05\bin\Debug\18_12_05.exe.config
+C:\Users\opilane\source\repos\18_12_05\18_12_05\bin\Debug\18_12_05.exe
+C:\Users\opilane\source\repos\18_12_05\18_12_05\bin\Debug\18_12_05.pdb
+C:\Users\opilane\source\repos\18_12_05\18_12_05\obj\Debug\18_12_05.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\18_12_05\18_12_05\obj\Debug\18_12_05.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\18_12_05\18_12_05\obj\Debug\18_12_05.exe
+C:\Users\opilane\source\repos\18_12_05\18_12_05\obj\Debug\18_12_05.pdb

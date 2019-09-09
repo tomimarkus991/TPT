@@ -1,0 +1,7 @@
+D:\koodid\DecisionMaking\DecisionMaking\bin\Debug\DecisionMaking.exe.config
+D:\koodid\DecisionMaking\DecisionMaking\bin\Debug\DecisionMaking.exe
+D:\koodid\DecisionMaking\DecisionMaking\bin\Debug\DecisionMaking.pdb
+D:\koodid\DecisionMaking\DecisionMaking\obj\Debug\DecisionMaking.csprojAssemblyReference.cache
+D:\koodid\DecisionMaking\DecisionMaking\obj\Debug\DecisionMaking.csproj.CoreCompileInputs.cache
+D:\koodid\DecisionMaking\DecisionMaking\obj\Debug\DecisionMaking.exe
+D:\koodid\DecisionMaking\DecisionMaking\obj\Debug\DecisionMaking.pdb

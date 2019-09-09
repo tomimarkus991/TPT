@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="TomiMarkus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-09 10:21:24 PM"/>
+        <attribute name="created" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTAtMDk7MDk6MTk6NDcgUE07MjgwNw=="/>
+        <attribute name="edited" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTAtMDk7MDk6MTk6NDkgUE07MTtvcGlsYW5lO0tMQVNTQjMwNy00OzIwMTgtMTAtMDQ7MDI6Mzc6MTYgUE07MThfMTBfMDRfcHI3LmZwcmc7NzEwMg=="/>
+        <attribute name="edited" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTAtMDk7MTA6MjE6MjQgUE07MzsyODk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="maksimaalne, arv, loendur, mitmes" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sisesta arv&quot;" newline="True"/>
+            <input variable="arv"/>
+            <assign variable="maksimaalne" expression="arv"/>
+            <assign variable="mitmes" expression="1"/>
+            <for variable="loendur" start="2" end="5" direction="inc" step="1">
+                <output expression="&quot;Sisesta arv &quot;" newline="True"/>
+                <input variable="arv"/>
+                <if expression="arv &gt;= maksimaalne">
+                    <then>
+                        <assign variable="maksimaalne" expression="arv"/>
+                        <assign variable="mitmes" expression="loendur"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;J&#228;rjekord = &quot; &amp; mitmes" newline="True"/>
+            <output expression="&quot;Maksimum = &quot; &amp; maksimaalne" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

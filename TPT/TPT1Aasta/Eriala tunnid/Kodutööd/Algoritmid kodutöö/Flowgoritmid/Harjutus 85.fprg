@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="TomiMarkus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-22 05:09:07 PM"/>
+        <attribute name="created" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTAtMjI7MDQ6Mjc6NDMgUE07Mjc5Mg=="/>
+        <attribute name="edited" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTAtMjI7MDU6MDk6MDcgUE07MTsyOTAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="keskmine, mahutiMaht, BTonnBensiin, kgBensiini, liiter, Arvutuslik" type="Real" array="False" size=""/>
+            <assign variable="liiter" expression="8"/>
+            <assign variable="kgBensiini" expression="5.68"/>
+            <assign variable="keskmine" expression="liiter / kgBensiini"/>
+            <output expression="&quot;1 kg bensiini on keskmiselt &quot; &amp; keskmine &amp; &quot; liitrit&quot;" newline="True"/>
+            <output expression="&quot;Sisesta mahuti maht m3&quot;" newline="True"/>
+            <input variable="mahutiMaht"/>
+            <assign variable="Arvutuslik" expression="mahutiMaht / keskmine"/>
+            <output expression="&quot;Siia mahub maksimaalselt &quot; &amp; Arvutuslik &amp; &quot; tonni bensiini.&quot;" newline="True"/>
+            <output expression="&quot;Sisesta bensiini kogus tonnides &quot;" newline="True"/>
+            <input variable="BTonnBensiin"/>
+            <if expression="Arvutuslik &gt; BTonnBensiin">
+                <then>
+                    <output expression="&quot; See on piisav &quot; &amp; BTonnBensiin &amp; &quot; tonni bensiini jaoks &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ei mahu&quot;" newline="True"/>
+                    <breakpoint/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

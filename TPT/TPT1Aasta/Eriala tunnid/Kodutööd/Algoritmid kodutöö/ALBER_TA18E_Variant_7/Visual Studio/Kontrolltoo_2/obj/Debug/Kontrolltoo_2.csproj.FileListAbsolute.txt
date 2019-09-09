@@ -1,0 +1,14 @@
+C:\Users\TomiMarkus\Documents\Visual kodutoo\Kontrolltoo_2\bin\Debug\Kontrolltoo_2.exe.config
+C:\Users\TomiMarkus\Documents\Visual kodutoo\Kontrolltoo_2\bin\Debug\Kontrolltoo_2.exe
+C:\Users\TomiMarkus\Documents\Visual kodutoo\Kontrolltoo_2\bin\Debug\Kontrolltoo_2.pdb
+C:\Users\TomiMarkus\Documents\Visual kodutoo\Kontrolltoo_2\obj\Debug\Kontrolltoo_2.csprojAssemblyReference.cache
+C:\Users\TomiMarkus\Documents\Visual kodutoo\Kontrolltoo_2\obj\Debug\Kontrolltoo_2.csproj.CoreCompileInputs.cache
+C:\Users\TomiMarkus\Documents\Visual kodutoo\Kontrolltoo_2\obj\Debug\Kontrolltoo_2.exe
+C:\Users\TomiMarkus\Documents\Visual kodutoo\Kontrolltoo_2\obj\Debug\Kontrolltoo_2.pdb
+H:\Eriala tunnid\Kodutööd\Algoritmid kodutöö\ALBER_TA18E_Variant_7\Visual Studio\Kontrolltoo_2\bin\Debug\Kontrolltoo_2.exe.config
+H:\Eriala tunnid\Kodutööd\Algoritmid kodutöö\ALBER_TA18E_Variant_7\Visual Studio\Kontrolltoo_2\bin\Debug\Kontrolltoo_2.exe
+H:\Eriala tunnid\Kodutööd\Algoritmid kodutöö\ALBER_TA18E_Variant_7\Visual Studio\Kontrolltoo_2\bin\Debug\Kontrolltoo_2.pdb
+H:\Eriala tunnid\Kodutööd\Algoritmid kodutöö\ALBER_TA18E_Variant_7\Visual Studio\Kontrolltoo_2\obj\Debug\Kontrolltoo_2.csprojAssemblyReference.cache
+H:\Eriala tunnid\Kodutööd\Algoritmid kodutöö\ALBER_TA18E_Variant_7\Visual Studio\Kontrolltoo_2\obj\Debug\Kontrolltoo_2.csproj.CoreCompileInputs.cache
+H:\Eriala tunnid\Kodutööd\Algoritmid kodutöö\ALBER_TA18E_Variant_7\Visual Studio\Kontrolltoo_2\obj\Debug\Kontrolltoo_2.exe
+H:\Eriala tunnid\Kodutööd\Algoritmid kodutöö\ALBER_TA18E_Variant_7\Visual Studio\Kontrolltoo_2\obj\Debug\Kontrolltoo_2.pdb

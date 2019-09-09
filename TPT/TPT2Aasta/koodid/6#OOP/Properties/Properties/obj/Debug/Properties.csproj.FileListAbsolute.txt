@@ -1,0 +1,7 @@
+D:\koodid\6#OOP\Properties\Properties\obj\Debug\Properties.csprojAssemblyReference.cache
+D:\koodid\6#OOP\Properties\Properties\obj\Debug\Properties.csproj.CoreCompileInputs.cache
+D:\koodid\6#OOP\Properties\Properties\bin\Debug\Properties.exe.config
+D:\koodid\6#OOP\Properties\Properties\bin\Debug\Properties.exe
+D:\koodid\6#OOP\Properties\Properties\bin\Debug\Properties.pdb
+D:\koodid\6#OOP\Properties\Properties\obj\Debug\Properties.exe
+D:\koodid\6#OOP\Properties\Properties\obj\Debug\Properties.pdb

@@ -1,0 +1,7 @@
+D:\koodid\5#Loops\DoWhile\DoWhile\obj\Debug\DoWhile.csprojAssemblyReference.cache
+D:\koodid\5#Loops\DoWhile\DoWhile\obj\Debug\DoWhile.csproj.CoreCompileInputs.cache
+D:\koodid\5#Loops\DoWhile\DoWhile\bin\Debug\DoWhile.exe.config
+D:\koodid\5#Loops\DoWhile\DoWhile\bin\Debug\DoWhile.exe
+D:\koodid\5#Loops\DoWhile\DoWhile\bin\Debug\DoWhile.pdb
+D:\koodid\5#Loops\DoWhile\DoWhile\obj\Debug\DoWhile.exe
+D:\koodid\5#Loops\DoWhile\DoWhile\obj\Debug\DoWhile.pdb

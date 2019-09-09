@@ -1,0 +1,7 @@
+D:\koodid\5#Loops\While\While\bin\Debug\While.exe.config
+D:\koodid\5#Loops\While\While\bin\Debug\While.exe
+D:\koodid\5#Loops\While\While\bin\Debug\While.pdb
+D:\koodid\5#Loops\While\While\obj\Debug\While.csprojAssemblyReference.cache
+D:\koodid\5#Loops\While\While\obj\Debug\While.csproj.CoreCompileInputs.cache
+D:\koodid\5#Loops\While\While\obj\Debug\While.exe
+D:\koodid\5#Loops\While\While\obj\Debug\While.pdb

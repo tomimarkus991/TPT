@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="TomiMarkus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-22 04:27:35 PM"/>
+        <attribute name="created" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTAtMjI7MDQ6MTk6NTUgUE07Mjc5Ng=="/>
+        <attribute name="edited" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTAtMjI7MDQ6Mjc6MzUgUE07MTsyOTAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p&#245;randaPikkus, v&#228;rvitudP&#245;rand, XkgV&#228;rv, keskmine" type="Real" array="False" size=""/>
+            <assign variable="p&#245;randaPikkus" expression="56"/>
+            <assign variable="v&#228;rvitudP&#245;rand" expression="22"/>
+            <assign variable="XkgV&#228;rv" expression="0"/>
+            <output expression="&quot;Sisesta v&#228;rvi kogus, mis kulus &quot; &amp; v&#228;rvitudP&#245;rand &amp;  &quot;m v&#228;rvimiseks kg-ides&quot;" newline="True"/>
+            <input variable="XkgV&#228;rv"/>
+            <assign variable="keskmine" expression="v&#228;rvitudP&#245;rand / XkgV&#228;rv"/>
+            <output expression="&quot;1kg v&#228;rviga saab v&#228;rvida &quot; &amp; v&#228;rvitudP&#245;rand / XkgV&#228;rv &amp; &quot;m p&#245;randat&quot;" newline="True"/>
+            <output expression="p&#245;randaPikkus / keskmine &amp; &quot;kg v&#228;rvi on vaja et v&#228;rvida &quot; &amp; p&#245;randaPikkus &amp; &quot;m p&#245;randat&quot;" newline="True"/>
+            <output expression="p&#245;randaPikkus / keskmine - XkgV&#228;rv &amp; &quot;kg v&#228;rvi on vaja, et v&#228;rvida &#252;lej&#228;&#228;nud p&#245;rand &quot; &amp; (p&#245;randaPikkus - v&#228;rvitudP&#245;rand) &amp; &quot;m&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-12 08:35:59 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEwLTA0OzAyOjM3OjE2IFBNOzI3MjI="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEwLTA0OzAyOjU1OjU3IFBNOzI7b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTA5LTI3OzAzOjQzOjE1IFBNOzE4XzA5XzI3X3ByNkIuZnByZzs3MTA5"/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEwLTA0OzAzOjM0OjMwIFBNOzY7MjgyOQ=="/>
+        <attribute name="edited" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTAtMTI7MDg6MzU6NTkgUE07MzsyOTEx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv, maksimaalne, loendur, mitu, j&#228;rjekord" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sisesta arv&quot;" newline="True"/>
+            <input variable="arv"/>
+            <assign variable="maksimaalne" expression="arv"/>
+            <assign variable="j&#228;rjekord" expression="1"/>
+            <assign variable="mitu" expression="1"/>
+            <for variable="loendur" start="2" end="5" direction="inc" step="1">
+                <output expression="&quot;Sisesta arv &quot;" newline="True"/>
+                <input variable="arv"/>
+                <if expression="arv &gt;= maksimaalne">
+                    <then>
+                        <if expression="arv&gt;maksimaalne">
+                            <then>
+                                <assign variable="j&#228;rjekord" expression="loendur"/>
+                                <assign variable="mitu" expression="0"/>
+                            </then>
+                            <else/>
+                        </if>
+                        <assign variable="maksimaalne" expression="arv"/>
+                        <assign variable="mitu" expression="mitu + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Maksimum = &quot; &amp; maksimaalne &amp; &quot; Korduste arv on &quot; &amp; mitu" newline="True"/>
+            <output expression="&quot; J&#228;rjekord on &quot; &amp; j&#228;rjekord &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

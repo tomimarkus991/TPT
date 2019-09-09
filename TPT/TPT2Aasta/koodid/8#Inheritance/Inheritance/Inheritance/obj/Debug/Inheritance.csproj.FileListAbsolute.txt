@@ -1,0 +1,14 @@
+D:\koodid\8#Inheritance\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+D:\koodid\8#Inheritance\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+D:\koodid\8#Inheritance\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+D:\koodid\8#Inheritance\Inheritance\Inheritance\obj\Debug\Inheritance.csprojAssemblyReference.cache
+D:\koodid\8#Inheritance\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+D:\koodid\8#Inheritance\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+D:\koodid\8#Inheritance\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
+C:\Kool_TA2\koodid\8#Inheritance\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Kool_TA2\koodid\8#Inheritance\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+C:\Kool_TA2\koodid\8#Inheritance\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+C:\Kool_TA2\koodid\8#Inheritance\Inheritance\Inheritance\obj\Debug\Inheritance.csprojAssemblyReference.cache
+C:\Kool_TA2\koodid\8#Inheritance\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+C:\Kool_TA2\koodid\8#Inheritance\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+C:\Kool_TA2\koodid\8#Inheritance\Inheritance\Inheritance\obj\Debug\Inheritance.pdb

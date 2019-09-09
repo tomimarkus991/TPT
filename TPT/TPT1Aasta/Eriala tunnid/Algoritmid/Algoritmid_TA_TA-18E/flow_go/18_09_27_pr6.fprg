@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-27 03:42:52 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTA5LTI3OzAyOjU4OjQ1IFBNOzI3NDA="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTA5LTI3OzAzOjQyOjUyIFBNOzU7Mjg0NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv, maksimaalne, loendur" type="Integer" array="False" size=""/>
+            <for variable="loendur" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;Sisesta arv &quot;" newline="True"/>
+                <input variable="arv"/>
+                <if expression="loendur = 1">
+                    <then>
+                        <assign variable="maksimaalne" expression="1"/>
+                    </then>
+                    <else>
+                        <if expression="arv &gt; maksimaalne">
+                            <then>
+                                <assign variable="maksimaalne" expression="arv"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;Maksimum = &quot; &amp; maksimaalne" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

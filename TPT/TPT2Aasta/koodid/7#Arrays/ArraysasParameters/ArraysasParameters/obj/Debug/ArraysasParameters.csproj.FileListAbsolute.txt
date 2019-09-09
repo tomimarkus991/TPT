@@ -1,0 +1,7 @@
+D:\koodid\7#Arrays\ArraysasParameters\ArraysasParameters\bin\Debug\ArraysasParameters.exe.config
+D:\koodid\7#Arrays\ArraysasParameters\ArraysasParameters\bin\Debug\ArraysasParameters.exe
+D:\koodid\7#Arrays\ArraysasParameters\ArraysasParameters\bin\Debug\ArraysasParameters.pdb
+D:\koodid\7#Arrays\ArraysasParameters\ArraysasParameters\obj\Debug\ArraysasParameters.csprojAssemblyReference.cache
+D:\koodid\7#Arrays\ArraysasParameters\ArraysasParameters\obj\Debug\ArraysasParameters.csproj.CoreCompileInputs.cache
+D:\koodid\7#Arrays\ArraysasParameters\ArraysasParameters\obj\Debug\ArraysasParameters.exe
+D:\koodid\7#Arrays\ArraysasParameters\ArraysasParameters\obj\Debug\ArraysasParameters.pdb

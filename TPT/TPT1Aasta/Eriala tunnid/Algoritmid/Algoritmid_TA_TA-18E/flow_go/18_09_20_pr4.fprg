@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-20 03:28:11 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTA5LTIwOzAyOjM3OjIzIFBNOzI3MjY="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTA5LTIwOzAyOjM4OjI1IFBNOzE7b3BpbGFuZTtLTEFTU0IzMDctMzsyMDE4LTA5LTA2OzEwOjEzOjMzIEFNOzE4XzA5XzEzX1RBLTE4RV9Ub21pX0FsYmVyLmZwcmc7ODE4OA=="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTA5LTIwOzAzOjI4OjExIFBNOzM7MjgzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv1, arv2, arv3, suuremarv" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sisesta esimene arv&quot;" newline="True"/>
+            <input variable="arv1"/>
+            <output expression="&quot;Sisesta teine arv&quot;" newline="True"/>
+            <input variable="arv2"/>
+            <output expression="&quot;Sisesta kolmas arv&quot;" newline="True"/>
+            <input variable="arv3"/>
+            <if expression="arv1&gt;arv2 &amp;&amp; arv1&gt;arv3">
+                <then>
+                    <output expression="arv1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="arv2&gt;arv3">
+                        <then>
+                            <output expression="arv2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="arv3" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

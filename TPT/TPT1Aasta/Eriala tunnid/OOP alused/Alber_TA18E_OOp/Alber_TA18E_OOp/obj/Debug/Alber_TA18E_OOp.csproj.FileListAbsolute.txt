@@ -1,0 +1,24 @@
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\bin\Debug\Alber_TA18E_OOp.exe.config
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\bin\Debug\Alber_TA18E_OOp.exe
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\bin\Debug\Alber_TA18E_OOp.pdb
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.csprojAssemblyReference.cache
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.AT_Form_Main.resources
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.Properties.Resources.resources
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.csproj.GenerateResource.cache
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.csproj.CoreCompileInputs.cache
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.exe
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.pdb
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.AT_Form_01_15.resources
+C:\Alber_Projekt_TA18E_OOP\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.AT_Form2_01_29.resources
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\bin\Debug\Alber_TA18E_OOp.exe.config
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\bin\Debug\Alber_TA18E_OOp.exe
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\bin\Debug\Alber_TA18E_OOp.pdb
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOP.csprojAssemblyReference.cache
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.AT_Form2_01_29.resources
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.AT_Form_01_15.resources
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.AT_Form_Main.resources
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.Properties.Resources.resources
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOP.csproj.GenerateResource.cache
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOP.csproj.CoreCompileInputs.cache
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.exe
+H:\Eriala tunnid\OOP alused\Alber_TA18E_OOp\Alber_TA18E_OOp\obj\Debug\Alber_TA18E_OOp.pdb

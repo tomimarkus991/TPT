@@ -1,0 +1,7 @@
+C:\Users\opilane\Desktop\18_10_10_prog_alused\18_10_10_prog_alused\bin\Debug\18_10_10_prog_alused.exe.config
+C:\Users\opilane\Desktop\18_10_10_prog_alused\18_10_10_prog_alused\bin\Debug\18_10_10_prog_alused.exe
+C:\Users\opilane\Desktop\18_10_10_prog_alused\18_10_10_prog_alused\bin\Debug\18_10_10_prog_alused.pdb
+C:\Users\opilane\Desktop\18_10_10_prog_alused\18_10_10_prog_alused\obj\Debug\18_10_10_prog_alused.csprojAssemblyReference.cache
+C:\Users\opilane\Desktop\18_10_10_prog_alused\18_10_10_prog_alused\obj\Debug\18_10_10_prog_alused.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Desktop\18_10_10_prog_alused\18_10_10_prog_alused\obj\Debug\18_10_10_prog_alused.exe
+C:\Users\opilane\Desktop\18_10_10_prog_alused\18_10_10_prog_alused\obj\Debug\18_10_10_prog_alused.pdb

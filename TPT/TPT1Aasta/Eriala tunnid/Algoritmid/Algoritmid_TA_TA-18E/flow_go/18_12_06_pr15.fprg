@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-06 03:39:36 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEyLTA2OzAyOjM4OjE5IFBNOzI3MzA="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEyLTA2OzAzOjA4OjU5IFBNOzE7b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTIyOzAyOjU4OjI4IFBNOzE4XzExXzIyX3ByMTQuZnByZzs3MDc5"/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEyLTA2OzAzOjM5OjM2IFBNOzI7Mjg0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arvud" type="Integer" array="True" size="41"/>
+            <declare name="k, kasutatud" type="Integer" array="False" size=""/>
+            <for variable="k" start="0" end="40" direction="inc" step="1">
+                <while expression="kasutatud">
+                    <assign variable="kasutatud" expression="k + k"/>
+                    <if expression="k = arvud">
+                        <then>
+                            <assign variable="arvud[k]" expression="random(50)"/>
+                            <output expression="&quot; &quot; &amp; arvud[k]" newline="False"/>
+                        </then>
+                        <else/>
+                    </if>
+                </while>
+            </for>
+            <comment text="while arv ei kordu tee arrayd edasi kui kordub skipi see arv"/>
+        </body>
+    </function>
+</flowgorithm>

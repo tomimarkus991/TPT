@@ -1,0 +1,35 @@
+2nd to 16 süsteem	BIN to HEX
+vaatan mis asju mingi asi kontrollib
+
+    a
+  f   b
+    g
+  e   c
+    d
+
+Esimene läheb 	A
+Teine läheb	F
+Kolmas läheb	E
+Neljas läheb	D
+Viies läheb	C
+Kuues läheb	G
+Seitsmes läheb	B
+Kaheksas läheb	Displaysse ülemisse paremasse nurka
+
+nr 1 on BC
+nr 2 on 
+nr 3 on
+nr 4 on
+nr 5 on
+nr 6 on
+nr 7 on
+nr 8 on
+nr 9 on
+nr 10 on
+nr 11 on
+nr 12 on
+
+
+http://www.softwareforeducation.com/sms32v50/sms32v50_manual/240-hex-bin.htm
+https://en.wikipedia.org/wiki/Seven-segment_display
+http://www.softwareforeducation.com/

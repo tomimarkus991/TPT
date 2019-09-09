@@ -1,0 +1,7 @@
+D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\TripsTrapsTrull\TripsTrapsTrull\obj\Debug\TripsTrapsTrull.csprojAssemblyReference.cache
+D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\TripsTrapsTrull\TripsTrapsTrull\obj\Debug\TripsTrapsTrull.csproj.CoreCompileInputs.cache
+D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\TripsTrapsTrull\TripsTrapsTrull\bin\Debug\TripsTrapsTrull.exe.config
+D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\TripsTrapsTrull\TripsTrapsTrull\bin\Debug\TripsTrapsTrull.exe
+D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\TripsTrapsTrull\TripsTrapsTrull\bin\Debug\TripsTrapsTrull.pdb
+D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\TripsTrapsTrull\TripsTrapsTrull\obj\Debug\TripsTrapsTrull.exe
+D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\TripsTrapsTrull\TripsTrapsTrull\obj\Debug\TripsTrapsTrull.pdb

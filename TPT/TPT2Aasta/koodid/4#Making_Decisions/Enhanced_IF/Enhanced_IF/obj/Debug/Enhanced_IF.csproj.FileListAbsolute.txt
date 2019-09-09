@@ -1,0 +1,7 @@
+D:\koodid\Making_Decisions\Enhanced_IF\Enhanced_IF\bin\Debug\Enhanced_IF.exe.config
+D:\koodid\Making_Decisions\Enhanced_IF\Enhanced_IF\bin\Debug\Enhanced_IF.exe
+D:\koodid\Making_Decisions\Enhanced_IF\Enhanced_IF\bin\Debug\Enhanced_IF.pdb
+D:\koodid\Making_Decisions\Enhanced_IF\Enhanced_IF\obj\Debug\Enhanced_IF.csprojAssemblyReference.cache
+D:\koodid\Making_Decisions\Enhanced_IF\Enhanced_IF\obj\Debug\Enhanced_IF.csproj.CoreCompileInputs.cache
+D:\koodid\Making_Decisions\Enhanced_IF\Enhanced_IF\obj\Debug\Enhanced_IF.exe
+D:\koodid\Making_Decisions\Enhanced_IF\Enhanced_IF\obj\Debug\Enhanced_IF.pdb

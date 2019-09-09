@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-08 03:47:57 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTA4OzAzOjI5OjU2IFBNOzI3MzM="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTA4OzAzOjM0OjEzIFBNOzI7b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTA4OzAyOjQ0OjMzIFBNOzE4XzExXzA4X3ByMTEuZnByZzs3MDY2"/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTA4OzAzOjQ3OjU3IFBNOzQ7Mjg0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arvud" type="Integer" array="True" size="50"/>
+            <declare name="k" type="Integer" array="False" size=""/>
+            <for variable="k" start="0" end="49" direction="inc" step="1">
+                <assign variable="arvud[k]" expression="random(90) + 10"/>
+            </for>
+            <output expression="&quot;Formeeritud massiiv:&quot;" newline="False"/>
+            <for variable="k" start="0" end="49" direction="inc" step="1">
+                <output expression="&quot; &quot; &amp; arvud[k]" newline="False"/>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;V&#228;heneva sammu meetod ehk Shelli sorteerimine &quot;" newline="True"/>
+            <declare name="samm" type="Boolean" array="False" size=""/>
+            <while expression="samm = samm / 2">
+                <assign variable="veel" expression="true"/>
+                <while expression="veel">
+                    <output expression="samm" newline="True"/>
+                    <assign variable="veel" expression="false"/>
+                    <for variable="i" start="0" end="48" direction="inc" step="1">
+                        <assign variable="k" expression="i + samm"/>
+                    </for>
+                    <if expression="k &lt; i">
+                        <then>
+                            <assign variable="veel" expression="true"/>
+                        </then>
+                        <else/>
+                    </if>
+                </while>
+            </while>
+            <assign variable="veel" expression="true"/>
+            <output expression="&quot;J&#228;rjestatud massiiv: &quot;" newline="True"/>
+            <for variable="k" start="0" end="49" direction="inc" step="1">
+                <output expression="&quot; &quot; &amp; arvud[k]" newline="False"/>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

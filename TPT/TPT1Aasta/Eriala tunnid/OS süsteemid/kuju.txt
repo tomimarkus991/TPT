@@ -1,0 +1,19 @@
+#include <iostream>
+#include <graphics.h>
+int main()
+{
+    initwindow(440, 300);
+    setfillstyle(1, 9);
+    bar(100, 100, 300, 200);
+    setcolor(13);
+    rectangle(100, 100, 300, 200);
+    moveto(100, 100);
+    lineto(200, 50);
+    lineto(300, 100);
+    setfillstyle(1, 14);
+    floodfill(200, 150, 15);
+    setcolor(12);
+    outtextxy(100, 230, "Pontu maja.");
+    getch();
+    closegraph();
+}

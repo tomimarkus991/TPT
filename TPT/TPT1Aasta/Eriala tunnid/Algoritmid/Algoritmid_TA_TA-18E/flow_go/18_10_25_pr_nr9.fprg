@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-25 03:48:03 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEwLTI1OzAyOjM0OjQ1IFBNOzI3MjQ="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEwLTI1OzAzOjQ4OjAzIFBNOzM7MjgzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arvud" type="Integer" array="True" size="5"/>
+            <declare name="max, i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <output expression="&quot;Sisesta arv&quot;" newline="True"/>
+                <input variable="arvud[i]"/>
+            </for>
+            <assign variable="max" expression="arvud[0]"/>
+            <for variable="i" start="1" end="4" direction="inc" step="1">
+                <if expression="arvud[i] &gt; max">
+                    <then>
+                        <assign variable="max" expression="arvud[i]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Max = &quot;&amp; max" newline="True"/>
+            <output expression="&quot;Asukoht:&quot;" newline="False"/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <if expression="arvud[i] = max">
+                    <then>
+                        <output expression="&quot; &quot; &amp; (i + 1)" newline="False"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

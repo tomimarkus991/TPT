@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-18 03:55:31 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEwLTExOzAyOjQ3OjM5IFBNOzI3MjY="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTEwLTE4OzAzOjU1OjMxIFBNOzE1OzI4ODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hind, summa" type="Real" array="False" size=""/>
+            <declare name="mitu" type="Integer" array="False" size=""/>
+            <comment text="mitu = Mitu toodet on ostetud?"/>
+            <assign variable="summa" expression="0"/>
+            <assign variable="mitu" expression="0"/>
+            <do expression="hind &gt; 0">
+                <output expression="&quot;Palju maksab?&quot;" newline="True"/>
+                <input variable="hind"/>
+                <assign variable="summa" expression="summa + hind"/>
+                <assign variable="mitu" expression="mitu + 1"/>
+            </do>
+            <assign variable="mitu" expression="mitu - 1"/>
+            <output expression="&quot;Ostetud &quot; &amp; mitu &amp; &quot; kaupa. Pead maksma &quot; &amp; summa &amp; &quot;&#8364;&quot;" newline="True"/>
+            <declare name="makstud, raha, veel" type="Integer" array="False" size=""/>
+            <assign variable="makstud" expression="0"/>
+            <assign variable="veel" expression="0"/>
+            <while expression="makstud &lt; summa">
+                <output expression="&quot;Veel &quot; &amp; summa - makstud &amp; &quot; palun!&quot;" newline="True"/>
+                <input variable="raha"/>
+                <if expression="raha = 5 OR raha = 10 OR raha = 20 OR raha = 50">
+                    <then>
+                        <assign variable="makstud" expression="makstud + raha"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Vale raha&quot;" newline="True"/>
+                        <output expression="&quot;TURVAMEES!!!&quot;" newline="True"/>
+                        <breakpoint/>
+                    </else>
+                </if>
+                <assign variable="makstud" expression="makstud + raha"/>
+                <if expression="summa &gt; makstud">
+                    <then>
+                        <assign variable="veel" expression="summa - makstud"/>
+                        <output expression="&quot;Teil on &quot; &amp; veel &amp; &quot; EUR &quot; &amp; &quot; puudu &quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <if expression="makstud &gt; summa">
+                <then>
+                    <output expression="&quot;Tagasi saate &quot; &amp; (makstud - summa) &amp; &quot; EUR&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ait&#228;h! &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

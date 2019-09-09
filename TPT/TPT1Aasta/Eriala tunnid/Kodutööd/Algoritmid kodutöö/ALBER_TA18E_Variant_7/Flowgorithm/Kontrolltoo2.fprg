@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="TomiMarkus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-02 06:44:00 PM"/>
+        <attribute name="created" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTItMDE7MDg6MTA6MjAgUE07Mjc4Mg=="/>
+        <attribute name="edited" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTItMDE7MDg6MTA6MjYgUE07MTtvcGlsYW5lO0tMQVNTQjMwNy00OzIwMTgtMTEtMjI7MDI6NTg6MjggUE07MThfMTFfMjJfcHIxNC5mcHJnOzcxMzU="/>
+        <attribute name="edited" value="VG9taU1hcmt1cztUT01JOTkxOzIwMTgtMTItMDI7MDY6NDQ6MDAgUE07MTA7Mjk0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Variant 7 Tomi Markus Alber TA-18E"/>
+            <declare name="arvud" type="Integer" array="True" size="36"/>
+            <declare name="nullid" type="Integer" array="True" size="20"/>
+            <declare name="k, n, summa, mitu" type="Integer" array="False" size=""/>
+            <assign variable="mitu" expression="0"/>
+            <assign variable="summa" expression="0"/>
+            <assign variable="nullid[0]" expression="36"/>
+            <assign variable="nullid[1]" expression="37"/>
+            <assign variable="n" expression="0"/>
+            <for variable="k" start="0" end="35" direction="inc" step="1">
+                <comment text="Teeb juhuslike arvude massiivi."/>
+                <assign variable="arvud[k]" expression="random(50) - 30"/>
+                <output expression="&quot; &quot; &amp; arvud[k]" newline="False"/>
+            </for>
+            <for variable="k" start="0" end="35" direction="inc" step="1">
+                <if expression="arvud[k] &gt; -10">
+                    <then>
+                        <comment text="Leiab mitu arvu on suuremad kui -10."/>
+                        <assign variable="mitu" expression="mitu + 1"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="arvud[k] = 0">
+                    <then>
+                        <comment text="Lisab massiivi, mis leiab arvude 0 indeksid."/>
+                        <assign variable="nullid[n]" expression="k"/>
+                        <assign variable="n" expression="n + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+            <if expression="nullid[0] = 36 || nullid[1] = 37">
+                <then>
+                    <comment text="Veateade, kui nulle ei ole piisavalt"/>
+                    <if expression="nullid[0] != 36">
+                        <then>
+                            <output expression="&quot;Teist nulli ei ole&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Nulle pole piisavalt, et summat leida&quot;" newline="True"/>
+                            <output expression="&quot;Nulle peab olema v&#228;hemalt 2 t&#252;kki&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <comment text="Annab nullide vaheliste arvude summa kui nulle on piisavalt"/>
+                    <for variable="k" start="nullid[0]" end="nullid[1]" direction="inc" step="1">
+                        <assign variable="summa" expression="summa + arvud[k]"/>
+                    </for>
+                    <output expression="&quot;Indeksite &quot; &amp; nullid[0] &amp; &quot; ja &quot; &amp; nullid[1] &amp; &quot; vaheliste arvude summa on &quot; &amp; summa" newline="True"/>
+                </else>
+            </if>
+            <comment text="Annab v&#228;lja, kui palju -10 suuremaid arve on massiivis."/>
+            <if expression="mitu &gt;= 2">
+                <then>
+                    <output expression="mitu &amp; &quot; arvu on suuremad kui -10 &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="mitu &amp; &quot; arv on suurem kui -10 &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

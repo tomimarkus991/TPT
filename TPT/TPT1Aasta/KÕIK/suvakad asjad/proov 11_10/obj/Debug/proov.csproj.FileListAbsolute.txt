@@ -1,0 +1,5 @@
+C:\Users\opilane\Desktop\proov\bin\Debug\proov.exe.config
+C:\Users\opilane\Desktop\proov\bin\Debug\proov.exe
+C:\Users\opilane\Desktop\proov\bin\Debug\proov.pdb
+C:\Users\opilane\Desktop\proov\obj\Debug\proov.exe
+C:\Users\opilane\Desktop\proov\obj\Debug\proov.pdb

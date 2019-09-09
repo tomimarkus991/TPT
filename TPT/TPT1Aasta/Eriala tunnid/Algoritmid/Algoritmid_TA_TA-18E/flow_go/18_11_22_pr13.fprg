@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-22 02:58:15 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTIyOzAyOjM0OjM2IFBNOzI3MjI="/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTIyOzAyOjM0OjM4IFBNOzE7b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTA4OzAzOjI5OjU2IFBNOzE4XzExXzA4X3ByMTIuZnByZzs3MDc3"/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctNDsyMDE4LTExLTIyOzAyOjU4OjE1IFBNOzI7MjgzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arvud" type="Integer" array="True" size="40"/>
+            <declare name="k, summa" type="Integer" array="False" size=""/>
+            <assign variable="summa" expression="0"/>
+            <for variable="k" start="0" end="39" direction="inc" step="1">
+                <assign variable="arvud[k]" expression="random(41) - 20"/>
+            </for>
+            <output expression="&quot;Formeeritud massiiv:&quot;" newline="False"/>
+            <for variable="k" start="0" end="39" direction="inc" step="1">
+                <output expression="&quot; &quot; &amp; arvud[k]" newline="False"/>
+            </for>
+            <for variable="k" start="0" end="39" direction="inc" step="1">
+                <assign variable="summa" expression="summa + arvud[k]"/>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+            <output expression="&quot;Summa on &quot; &amp; summa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

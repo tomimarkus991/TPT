@@ -1,0 +1,12 @@
+TicTacToe
+
+Pean tegema 2D array
+9 numbrit 
+1 2 3
+4 5 6
+7 8 9
+Generaator +
+Kui valin numbri nt 5 ss oleneb kelle turn on nt: x ss 5 muutub x-iks
+Kui o turn ja ta valib 7 ss see läheb o-ks
+Kui 3 o või x järjest mängija võidab
+Peab vajutama mingit nuppu et lõpetada ja automaatselt resetib mängu

@@ -1,0 +1,14 @@
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Kodutöö_nr_1\bin\Debug\Kodutöö_nr_1.exe.config
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Kodutöö_nr_1\bin\Debug\Kodutöö_nr_1.exe
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Kodutöö_nr_1\bin\Debug\Kodutöö_nr_1.pdb
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Kodutöö_nr_1\obj\Debug\Kodutöö_nr_1.csprojAssemblyReference.cache
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Kodutöö_nr_1\obj\Debug\Kodutöö_nr_1.csproj.CoreCompileInputs.cache
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Kodutöö_nr_1\obj\Debug\Kodutöö_nr_1.exe
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Kodutöö_nr_1\obj\Debug\Kodutöö_nr_1.pdb
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Uus kaust\Kodutöö_nr_1\bin\Debug\Kodutöö_nr_1.exe.config
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Uus kaust\Kodutöö_nr_1\bin\Debug\Kodutöö_nr_1.exe
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Uus kaust\Kodutöö_nr_1\bin\Debug\Kodutöö_nr_1.pdb
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Uus kaust\Kodutöö_nr_1\obj\Debug\Kodutöö_nr_1.csprojAssemblyReference.cache
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Uus kaust\Kodutöö_nr_1\obj\Debug\Kodutöö_nr_1.csproj.CoreCompileInputs.cache
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Uus kaust\Kodutöö_nr_1\obj\Debug\Kodutöö_nr_1.exe
+D:\Visual Studio kodutööd\Prog_alused kodutöö\Uus kaust\Kodutöö_nr_1\obj\Debug\Kodutöö_nr_1.pdb

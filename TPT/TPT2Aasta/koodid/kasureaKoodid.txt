@@ -1,0 +1,37 @@
+Arvutivõrkude alused:
+Käsurea koodid.
+mkdir networking - teeb networking directory
+cd networking - muudab directory networkinguks
+vagrant init ubuntu/trusty64
+vagrant up
+vagrant ssh - logib linuxisse sisse
+
+sudo apt-get update && sudo apt-get upgrade - uuendab
+sudo apt-get install netcat-openbsd tcpdump traceroute mtr
+ - laeb programmid alla
+
+ip addr show eth0 - näitab infot eth0 kohta
+ip route show - näitab ipd nt tuli 10.0.2.0/24 dev eth0
+printf 'HEAD / HTTP/1.1\r\nHost: en.wikipedia.org\r\n\r\n'
+ | nc en.wikipedia.org 80 - wikipeedia server saatis infot tagasi
+
+ping -c3 8.8.8.8 - näitab pingi/ -c3 ütleb mitu korda / 8.8.8.8 on google dns server
+
+host -t aaaa google.com - annab google ipv6 aadressi
+host -t mx udacity.com - näitab kes selle maili haldab(1 oli aspmx.l.google.com)
+host google.com - näitab adressi(mitu tükki. nt 64.233.162.102 jne)
+/ näitab veel ipv6 / ja kes maili haldab
+host -t a google.com - näitab aadressi(mtu tükki)
+man host - toob manuali ette
+
+traceroute www.udacity.com - näitab teed kust info läbi läheb, 
+kuni see jõuab nt siis www.udacity.com lehele / samuti näitab hüpete arvu
+/ ja ipd ja pingi
+mtr www.udacity.com - hübriid pingist ja tracerouteist
+ping google.com - ping saadab echo päringuid hostile(hosti peab ise täpsustama),pingiga vaadatakse, 
+kas ühendus on olemas ja ka kui kaua see ring aega võttis
+
+dig www.udacity.com - dig lubab teha ükskõik millist DNS querit nt A; MX; NS jne
+man tcpdump - toob manuali ette
+tcpdump -n -c5 -i eth0 port 22
+sudo tcpdump -n host 8.8.8.8

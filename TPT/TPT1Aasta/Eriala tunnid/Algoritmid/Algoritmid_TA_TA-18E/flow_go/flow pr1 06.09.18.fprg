@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="opilane"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-06 02:45:11 PM"/>
+        <attribute name="created" value="b3BpbGFuZTtLTEFTU0IzMDctMTU7MjAxOC0wOS0wNjswMjoyOTozOCBQTTsyNzg3"/>
+        <attribute name="edited" value="b3BpbGFuZTtLTEFTU0IzMDctMTU7MjAxOC0wOS0wNjswMjo0NToxMSBQTTsxOzI4ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv1, arv2, tulemus" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sisesta esimene arv&quot;" newline="True"/>
+            <input variable="arv1"/>
+            <output expression="&quot;Sisesta teine arv&quot;" newline="True"/>
+            <input variable="arv2"/>
+            <assign variable="tulemus" expression="arv1 + arv2"/>
+            <output expression="&quot;Nende arvude summa on &quot; &amp; tulemus" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
