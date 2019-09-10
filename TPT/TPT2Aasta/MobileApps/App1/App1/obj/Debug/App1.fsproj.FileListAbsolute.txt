@@ -1,7 +1,0 @@
-D:\koodid\MobileApps\App1\App1\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.fs
-D:\koodid\MobileApps\App1\App1\obj\Debug\build.props
-D:\koodid\MobileApps\App1\App1\obj\Debug\adb.props
-D:\koodid\MobileApps\App1\App1\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
-D:\koodid\MobileApps\App1\App1\obj\Debug\resourcepaths.cache
-D:\koodid\MobileApps\App1\App1\obj\Debug\res.flag
-D:\koodid\MobileApps\App1\App1\obj\Debug\R.cs.flag
