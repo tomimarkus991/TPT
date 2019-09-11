@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TPT\\TPT\\TPT2Aasta\\MobileApps\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+  },
+  "projects": {
+    "C:\\TPT\\TPT\\TPT2Aasta\\MobileApps\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TPT\\TPT\\TPT2Aasta\\MobileApps\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectName": "HelloWorld",
+        "projectPath": "C:\\TPT\\TPT\\TPT2Aasta\\MobileApps\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\tomim\\.nuget\\packages\\",
+        "outputPath": "C:\\TPT\\TPT\\TPT2Aasta\\MobileApps\\HelloWorld\\HelloWorld\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tomim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
