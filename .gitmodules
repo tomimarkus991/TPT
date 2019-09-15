@@ -1,3 +1,6 @@
 [submodule "Tarkvarasysteemid"]
 	path = Tarkvarasysteemid
 	url = https://github.com/tomimarkus991/Tarkvarasysteemid
+[submodule "MobileApps"]
+	path = MobileApps
+	url = https://github.com/tomimarkus991/MobileApps
