@@ -1,0 +1,23 @@
+cd d/UnityGames etc.
+git init
+git clone<link> https://github.com/tomimarkus991/Zombie-Killer
+git remote add origin <link> https://github.com/tomimarkus991/Zombie-Killer
+git add .
+git status
+git commit -m "First Commit"
+git status
+rm -f .git/index.lock
+git push --set-upstream origin master
+git branch --set-upstream-to=origin/master master
+
+{git pull
+fatal: refusing to merge unrelated histories
+git pull --allow-unrelated-histories}
+
+git checkout master
+git submodule update
+
+https://gist.github.com/gitaarik/8735255
+https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin/5828396#5828396
+
+vaata git rebase
