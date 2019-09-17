@@ -1,0 +1,10 @@
+@charset "utf-8";
+div {border : 1px solid black}
+
+h2{background: lime}
+
+p{background: orange}
+
+.zero{margin : 0}
+
+.left{margin : 0 0 0 0.5in}
