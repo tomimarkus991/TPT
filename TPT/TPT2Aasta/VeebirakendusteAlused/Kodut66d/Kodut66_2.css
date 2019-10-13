@@ -10,9 +10,9 @@ html,body{height: 100%;}
 	margin: 0 auto -40px;
 }
 
-#hdr {height: 60px;background: white;  color: black; text-align: left; padding: 10px;}
+#hdr {height: 80px;background: white;  color: black; text-align: left; vertical-align: middle; line-height: 80px}
 
-#ftr {height: 30px;background: black; color: white; margin: auto; text-align: center}
+#ftr {height: 30px;background: #212020; color: white; margin: auto; text-align: center; vertical-align: middle; line-height: 40px; padding-bottom: 10px}
 
 #nav{float: left;width: 100px;background: yellow;}
 
