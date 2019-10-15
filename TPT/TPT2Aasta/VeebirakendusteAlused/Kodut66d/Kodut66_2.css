@@ -9,8 +9,10 @@ html,body{height: 100%;}
 	height: 200%;
 	margin: 0 auto -40px;
 }
-
+#hdrborder{border: 1px black solid}
 #hdr {height: 80px;background: white;  color: black; text-align: left; vertical-align: middle; line-height: 80px}
+
+#wrapper{border: 1px black solid}
 
 #ftr {height: 30px;background: #212020; color: white; margin: auto; text-align: center; vertical-align: middle; line-height: 40px; padding-bottom: 10px}
 
