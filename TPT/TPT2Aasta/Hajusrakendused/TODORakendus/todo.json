@@ -1,27 +1,27 @@
 [
 {
 	"title": "Too poest piima",
-	"desc": "",
+	"description": "",
 	"markedAsDone": false
 },
 {
 	"title": "XML parser",
-	"desc": "Mingi pikem kirjeldus mis me tegime",
+	"description": "Mingi pikem kirjeldus mis me tegime",
 	"markedAsDone": true
 },
 {
 	"title": "Loe raamatut",
-	"desc": "",
+	"description": "",
 	"markedAsDone": true
 },
 {
 	"title": "Markerid hakkavad tühjaks saama",
-	"desc": "must ja sinine",
+	"description": "must ja sinine",
 	"markedAsDone": false
 },
 {
 	"title": "Saada kutsed",
-	"desc": "",
+	"description": "",
 	"markedAsDone": false
 }
 ]
