@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+  <item>
+    <name>Kartulipuder</name>
+    <category>Main</category>
+    <vegan>Yes</vegan>
+    <weight>400g</weight>
+    <price>6</price>
+  </item>
+
+  <item>
+    <name>Salat</name>
+    <category>Main</category>
+    <vegan>Yes</vegan>
+    <weight>500g</weight>
+    <price>10</price>
+  </item>
+
+  <item>
+    <name>Kevadrullid kanaga</name>
+    <category>Pre-Main</category>
+    <vegan>No</vegan>
+    <weight>200g</weight>
+    <price>7</price>
+  </item>
+
+  <item>
+    <name>Kohupiimakook</name>
+    <category>Dessert</category>
+    <vegan>No</vegan>
+    <weight>100g</weight>
+    <price>5</price>
+  </item>
+
+  <item>
+    <name>Õlu</name>
+    <category>Drink</category>
+    <vegan>Yes</vegan>
+    <weight>100g</weight>
+    <price>5</price>
+  </item>
+
+  <item>
+    <name>Vesi</name>
+    <category>Drink</category>
+    <vegan>Yes</vegan>
+    <weight>100g</weight>
+    <price>5</price>
+  </item>
+
+  <item>
+    <name>Piim</name>
+    <category>Drink</category>
+    <vegan>No</vegan>
+    <weight>100g</weight>
+    <price>5</price>
+  </item>
+</menu>
