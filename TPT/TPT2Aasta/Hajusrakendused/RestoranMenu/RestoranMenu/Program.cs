@@ -27,17 +27,27 @@ namespace RestoranMenu
                 string name = item.Element("name").Value;
                 string category = item.Element("category").Value;
                 string vegan = item.Element("vegan").Value;
-                double weight = XmlConvert.ToDouble(reader.ReadInnerXml());
-                double price = XmlConvert.ToDouble(reader.ReadInnerXml());
+                //double weight = XmlConvert.ToDouble(reader.ReadInnerXml());
+                string weight = item.Element("weight").Value;
+                //double price = XmlConvert.ToDouble(reader.ReadInnerXml());
+                string price = item.Element("price").Value;
 
 
-                if (vegan == "Yes" & price < 5)
+                //if (vegan == "Yes" & price < 5)
+                //{
+                //    Console.WriteLine("Name: {0}", name);
+                //    Console.WriteLine("Category: {0}", category);
+                //    Console.WriteLine("Vegan: {0}", vegan);
+                //    Console.WriteLine("Weight: {0}", weight.ToString());
+                //    Console.WriteLine("Price: {0}", price.ToString());
+                //}
+                if (vegan == "Yes")
                 {
                     Console.WriteLine("Name: {0}", name);
                     Console.WriteLine("Category: {0}", category);
                     Console.WriteLine("Vegan: {0}", vegan);
-                    Console.WriteLine("Weight: {0}", weight.ToString());
-                    Console.WriteLine("Price: {0}", price.ToString());
+                    Console.WriteLine("Weight: {0}", weight);
+                    Console.WriteLine("Price: {0}", price);
                 }
                 //else
                 //{
