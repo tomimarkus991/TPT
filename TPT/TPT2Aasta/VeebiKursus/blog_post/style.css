@@ -1,0 +1,22 @@
+body
+{
+    font-size: 20px;
+    font-family: Arial;
+}
+h1, h2
+{
+    color: aqua;
+}
+h1
+{
+    font-size: 50px;
+}
+h2
+{
+    font-size: 30px;
+}
+p
+{
+    color: pink;
+    text-align: justify;
+}
