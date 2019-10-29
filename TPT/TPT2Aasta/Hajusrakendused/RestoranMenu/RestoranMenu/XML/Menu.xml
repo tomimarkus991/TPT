@@ -5,7 +5,7 @@
     <category>Main</category>
     <vegan>Yes</vegan>
     <weight>400g</weight>
-    <price>6</price>
+    <price>6e</price>
   </item>
 
   <item>
@@ -13,7 +13,7 @@
     <category>Main</category>
     <vegan>Yes</vegan>
     <weight>500g</weight>
-    <price>10</price>
+    <price>10e</price>
   </item>
 
   <item>
@@ -21,7 +21,7 @@
     <category>Pre-Main</category>
     <vegan>No</vegan>
     <weight>200g</weight>
-    <price>7</price>
+    <price>7e</price>
   </item>
 
   <item>
@@ -29,7 +29,7 @@
     <category>Dessert</category>
     <vegan>No</vegan>
     <weight>100g</weight>
-    <price>5</price>
+    <price>5e</price>
   </item>
 
   <item>
@@ -37,7 +37,7 @@
     <category>Drink</category>
     <vegan>Yes</vegan>
     <weight>100g</weight>
-    <price>5</price>
+    <price>5e</price>
   </item>
 
   <item>
@@ -45,7 +45,7 @@
     <category>Drink</category>
     <vegan>Yes</vegan>
     <weight>100g</weight>
-    <price>5</price>
+    <price>5e</price>
   </item>
 
   <item>
@@ -53,6 +53,6 @@
     <category>Drink</category>
     <vegan>No</vegan>
     <weight>100g</weight>
-    <price>5</price>
+    <price>4e</price>
   </item>
 </menu>
