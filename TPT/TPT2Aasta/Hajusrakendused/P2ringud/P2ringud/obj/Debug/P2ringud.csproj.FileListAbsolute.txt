@@ -1,7 +1,0 @@
-C:\TPT\TPT\TPT2Aasta\Hajusrakendused\P2ringud\P2ringud\bin\Debug\P2ringud.exe.config
-C:\TPT\TPT\TPT2Aasta\Hajusrakendused\P2ringud\P2ringud\bin\Debug\P2ringud.exe
-C:\TPT\TPT\TPT2Aasta\Hajusrakendused\P2ringud\P2ringud\bin\Debug\P2ringud.pdb
-C:\TPT\TPT\TPT2Aasta\Hajusrakendused\P2ringud\P2ringud\obj\Debug\P2ringud.csprojAssemblyReference.cache
-C:\TPT\TPT\TPT2Aasta\Hajusrakendused\P2ringud\P2ringud\obj\Debug\P2ringud.csproj.CoreCompileInputs.cache
-C:\TPT\TPT\TPT2Aasta\Hajusrakendused\P2ringud\P2ringud\obj\Debug\P2ringud.exe
-C:\TPT\TPT\TPT2Aasta\Hajusrakendused\P2ringud\P2ringud\obj\Debug\P2ringud.pdb
