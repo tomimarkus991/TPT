@@ -14,6 +14,8 @@ namespace RestoranMenu
         public static void AddFood()
         {
             StreamReader sr = new StreamReader(@"C:\TPT\TPT\TPT2Aasta\Hajusrakendused\RestoranMenu\RestoranMenu\XML\Menu.xml");
+            //StreamReader sr = new StreamReader(@"~\RestoranMenu\RestoranMenu\XML\Menu.xml");
+
             XElement menu = XElement.Load(sr);
 
             var items = menu.Elements("item");
