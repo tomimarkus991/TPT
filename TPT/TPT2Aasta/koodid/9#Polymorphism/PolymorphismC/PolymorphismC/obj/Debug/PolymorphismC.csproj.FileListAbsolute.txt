@@ -1,7 +1,0 @@
-D:\koodid\9#Polymorphism\PolymorphismC\PolymorphismC\bin\Debug\PolymorphismC.exe.config
-D:\koodid\9#Polymorphism\PolymorphismC\PolymorphismC\bin\Debug\PolymorphismC.exe
-D:\koodid\9#Polymorphism\PolymorphismC\PolymorphismC\bin\Debug\PolymorphismC.pdb
-D:\koodid\9#Polymorphism\PolymorphismC\PolymorphismC\obj\Debug\PolymorphismC.csprojAssemblyReference.cache
-D:\koodid\9#Polymorphism\PolymorphismC\PolymorphismC\obj\Debug\PolymorphismC.csproj.CoreCompileInputs.cache
-D:\koodid\9#Polymorphism\PolymorphismC\PolymorphismC\obj\Debug\PolymorphismC.exe
-D:\koodid\9#Polymorphism\PolymorphismC\PolymorphismC\obj\Debug\PolymorphismC.pdb

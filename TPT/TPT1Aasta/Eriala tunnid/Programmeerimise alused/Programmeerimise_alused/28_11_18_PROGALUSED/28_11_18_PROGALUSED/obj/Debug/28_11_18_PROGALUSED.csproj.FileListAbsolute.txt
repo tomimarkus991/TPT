@@ -1,7 +1,0 @@
-C:\Users\opilane\source\repos\28_11_18_PROGALUSED\28_11_18_PROGALUSED\bin\Debug\28_11_18_PROGALUSED.exe.config
-C:\Users\opilane\source\repos\28_11_18_PROGALUSED\28_11_18_PROGALUSED\bin\Debug\28_11_18_PROGALUSED.exe
-C:\Users\opilane\source\repos\28_11_18_PROGALUSED\28_11_18_PROGALUSED\bin\Debug\28_11_18_PROGALUSED.pdb
-C:\Users\opilane\source\repos\28_11_18_PROGALUSED\28_11_18_PROGALUSED\obj\Debug\28_11_18_PROGALUSED.csprojAssemblyReference.cache
-C:\Users\opilane\source\repos\28_11_18_PROGALUSED\28_11_18_PROGALUSED\obj\Debug\28_11_18_PROGALUSED.csproj.CoreCompileInputs.cache
-C:\Users\opilane\source\repos\28_11_18_PROGALUSED\28_11_18_PROGALUSED\obj\Debug\28_11_18_PROGALUSED.exe
-C:\Users\opilane\source\repos\28_11_18_PROGALUSED\28_11_18_PROGALUSED\obj\Debug\28_11_18_PROGALUSED.pdb

@@ -1,7 +1,0 @@
-D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\31_01_19\31_01_19\bin\Debug\31_01_19.exe.config
-D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\31_01_19\31_01_19\bin\Debug\31_01_19.exe
-D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\31_01_19\31_01_19\bin\Debug\31_01_19.pdb
-D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\31_01_19\31_01_19\obj\Debug\31_01_19.csprojAssemblyReference.cache
-D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\31_01_19\31_01_19\obj\Debug\31_01_19.csproj.CoreCompileInputs.cache
-D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\31_01_19\31_01_19\obj\Debug\31_01_19.exe
-D:\Eriala tunnid\Programmeerimise alused\Programmeerimise_alused\31_01_19\31_01_19\obj\Debug\31_01_19.pdb

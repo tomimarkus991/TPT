@@ -1,7 +1,0 @@
-D:\koodid\10#AdvancedC#\Lambda\Lambda\bin\Debug\Lambda.exe.config
-D:\koodid\10#AdvancedC#\Lambda\Lambda\bin\Debug\Lambda.exe
-D:\koodid\10#AdvancedC#\Lambda\Lambda\bin\Debug\Lambda.pdb
-D:\koodid\10#AdvancedC#\Lambda\Lambda\obj\Debug\Lambda.csprojAssemblyReference.cache
-D:\koodid\10#AdvancedC#\Lambda\Lambda\obj\Debug\Lambda.csproj.CoreCompileInputs.cache
-D:\koodid\10#AdvancedC#\Lambda\Lambda\obj\Debug\Lambda.exe
-D:\koodid\10#AdvancedC#\Lambda\Lambda\obj\Debug\Lambda.pdb

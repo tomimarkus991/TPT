@@ -1,7 +1,0 @@
-D:\koodid\Harjutused\Harjutused\Harjutused\bin\Debug\Harjutused.exe.config
-D:\koodid\Harjutused\Harjutused\Harjutused\bin\Debug\Harjutused.exe
-D:\koodid\Harjutused\Harjutused\Harjutused\bin\Debug\Harjutused.pdb
-D:\koodid\Harjutused\Harjutused\Harjutused\obj\Debug\Harjutused.csprojAssemblyReference.cache
-D:\koodid\Harjutused\Harjutused\Harjutused\obj\Debug\Harjutused.csproj.CoreCompileInputs.cache
-D:\koodid\Harjutused\Harjutused\Harjutused\obj\Debug\Harjutused.exe
-D:\koodid\Harjutused\Harjutused\Harjutused\obj\Debug\Harjutused.pdb

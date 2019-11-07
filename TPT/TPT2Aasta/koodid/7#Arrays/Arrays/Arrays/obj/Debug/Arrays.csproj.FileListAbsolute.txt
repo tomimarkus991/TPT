@@ -1,7 +1,0 @@
-D:\koodid\7#Arrays\Arrays\Arrays\bin\Debug\Arrays.exe.config
-D:\koodid\7#Arrays\Arrays\Arrays\bin\Debug\Arrays.exe
-D:\koodid\7#Arrays\Arrays\Arrays\bin\Debug\Arrays.pdb
-D:\koodid\7#Arrays\Arrays\Arrays\obj\Debug\Arrays.csprojAssemblyReference.cache
-D:\koodid\7#Arrays\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
-D:\koodid\7#Arrays\Arrays\Arrays\obj\Debug\Arrays.exe
-D:\koodid\7#Arrays\Arrays\Arrays\obj\Debug\Arrays.pdb

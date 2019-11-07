@@ -1,7 +1,0 @@
-D:\koodid\5#Loops\Loops_Challenge\Loops_Challenge\bin\Debug\Loops_Challenge.exe.config
-D:\koodid\5#Loops\Loops_Challenge\Loops_Challenge\bin\Debug\Loops_Challenge.exe
-D:\koodid\5#Loops\Loops_Challenge\Loops_Challenge\bin\Debug\Loops_Challenge.pdb
-D:\koodid\5#Loops\Loops_Challenge\Loops_Challenge\obj\Debug\Loops_Challenge.csprojAssemblyReference.cache
-D:\koodid\5#Loops\Loops_Challenge\Loops_Challenge\obj\Debug\Loops_Challenge.csproj.CoreCompileInputs.cache
-D:\koodid\5#Loops\Loops_Challenge\Loops_Challenge\obj\Debug\Loops_Challenge.exe
-D:\koodid\5#Loops\Loops_Challenge\Loops_Challenge\obj\Debug\Loops_Challenge.pdb

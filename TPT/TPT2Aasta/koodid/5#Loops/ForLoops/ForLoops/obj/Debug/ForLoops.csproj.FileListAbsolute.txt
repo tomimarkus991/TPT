@@ -1,7 +1,0 @@
-D:\koodid\5#Loops\ForLoops\ForLoops\bin\Debug\ForLoops.exe.config
-D:\koodid\5#Loops\ForLoops\ForLoops\bin\Debug\ForLoops.exe
-D:\koodid\5#Loops\ForLoops\ForLoops\bin\Debug\ForLoops.pdb
-D:\koodid\5#Loops\ForLoops\ForLoops\obj\Debug\ForLoops.csprojAssemblyReference.cache
-D:\koodid\5#Loops\ForLoops\ForLoops\obj\Debug\ForLoops.csproj.CoreCompileInputs.cache
-D:\koodid\5#Loops\ForLoops\ForLoops\obj\Debug\ForLoops.exe
-D:\koodid\5#Loops\ForLoops\ForLoops\obj\Debug\ForLoops.pdb

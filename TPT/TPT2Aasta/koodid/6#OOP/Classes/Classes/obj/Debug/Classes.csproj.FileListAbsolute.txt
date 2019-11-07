@@ -1,7 +1,0 @@
-D:\koodid\6#OOP\Classes\Classes\bin\Debug\Classes.exe.config
-D:\koodid\6#OOP\Classes\Classes\bin\Debug\Classes.exe
-D:\koodid\6#OOP\Classes\Classes\bin\Debug\Classes.pdb
-D:\koodid\6#OOP\Classes\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
-D:\koodid\6#OOP\Classes\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
-D:\koodid\6#OOP\Classes\Classes\obj\Debug\Classes.exe
-D:\koodid\6#OOP\Classes\Classes\obj\Debug\Classes.pdb

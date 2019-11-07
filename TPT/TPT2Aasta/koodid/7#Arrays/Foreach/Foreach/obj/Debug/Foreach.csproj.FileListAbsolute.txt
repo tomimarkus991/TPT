@@ -1,7 +1,0 @@
-D:\koodid\7#Arrays\Foreach\Foreach\bin\Debug\Foreach.exe.config
-D:\koodid\7#Arrays\Foreach\Foreach\bin\Debug\Foreach.exe
-D:\koodid\7#Arrays\Foreach\Foreach\bin\Debug\Foreach.pdb
-D:\koodid\7#Arrays\Foreach\Foreach\obj\Debug\Foreach.csprojAssemblyReference.cache
-D:\koodid\7#Arrays\Foreach\Foreach\obj\Debug\Foreach.csproj.CoreCompileInputs.cache
-D:\koodid\7#Arrays\Foreach\Foreach\obj\Debug\Foreach.exe
-D:\koodid\7#Arrays\Foreach\Foreach\obj\Debug\Foreach.pdb

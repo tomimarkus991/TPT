@@ -1,7 +1,0 @@
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\18_09_14 kalkulaator 5 valikut\Kalkulaator_mitu_tehet\bin\Debug\Kalkulaator_mitu_tehet.exe.config
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\18_09_14 kalkulaator 5 valikut\Kalkulaator_mitu_tehet\bin\Debug\Kalkulaator_mitu_tehet.exe
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\18_09_14 kalkulaator 5 valikut\Kalkulaator_mitu_tehet\bin\Debug\Kalkulaator_mitu_tehet.pdb
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\18_09_14 kalkulaator 5 valikut\Kalkulaator_mitu_tehet\obj\Debug\Kalkulaator_mitu_tehet.csprojAssemblyReference.cache
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\18_09_14 kalkulaator 5 valikut\Kalkulaator_mitu_tehet\obj\Debug\Kalkulaator_mitu_tehet.csproj.CoreCompileInputs.cache
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\18_09_14 kalkulaator 5 valikut\Kalkulaator_mitu_tehet\obj\Debug\Kalkulaator_mitu_tehet.exe
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\18_09_14 kalkulaator 5 valikut\Kalkulaator_mitu_tehet\obj\Debug\Kalkulaator_mitu_tehet.pdb

@@ -1,7 +1,0 @@
-D:\koodid\7#Arrays\2D_Array\2D_Array\bin\Debug\2D_Array.exe.config
-D:\koodid\7#Arrays\2D_Array\2D_Array\bin\Debug\2D_Array.exe
-D:\koodid\7#Arrays\2D_Array\2D_Array\bin\Debug\2D_Array.pdb
-D:\koodid\7#Arrays\2D_Array\2D_Array\obj\Debug\2D_Array.csprojAssemblyReference.cache
-D:\koodid\7#Arrays\2D_Array\2D_Array\obj\Debug\2D_Array.csproj.CoreCompileInputs.cache
-D:\koodid\7#Arrays\2D_Array\2D_Array\obj\Debug\2D_Array.exe
-D:\koodid\7#Arrays\2D_Array\2D_Array\obj\Debug\2D_Array.pdb

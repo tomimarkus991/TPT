@@ -1,7 +1,0 @@
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\Tomi Alber TA-18E kool\visual ST\aeg\aeg\aeg\bin\Debug\aeg.exe.config
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\Tomi Alber TA-18E kool\visual ST\aeg\aeg\aeg\bin\Debug\aeg.exe
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\Tomi Alber TA-18E kool\visual ST\aeg\aeg\aeg\bin\Debug\aeg.pdb
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\Tomi Alber TA-18E kool\visual ST\aeg\aeg\aeg\obj\Debug\aeg.csprojAssemblyReference.cache
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\Tomi Alber TA-18E kool\visual ST\aeg\aeg\aeg\obj\Debug\aeg.csproj.CoreCompileInputs.cache
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\Tomi Alber TA-18E kool\visual ST\aeg\aeg\aeg\obj\Debug\aeg.exe
-C:\Users\TomiMarkus\Desktop\kool TOMI TPT\Visual.Studio TMA TA-18E\Tomi Alber TA-18E kool\visual ST\aeg\aeg\aeg\obj\Debug\aeg.pdb

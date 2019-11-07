@@ -1,7 +1,0 @@
-D:\koodid\9#Polymorphism\TextFile\TextFile\bin\Debug\TextFile.exe.config
-D:\koodid\9#Polymorphism\TextFile\TextFile\bin\Debug\TextFile.exe
-D:\koodid\9#Polymorphism\TextFile\TextFile\bin\Debug\TextFile.pdb
-D:\koodid\9#Polymorphism\TextFile\TextFile\obj\Debug\TextFile.csprojAssemblyReference.cache
-D:\koodid\9#Polymorphism\TextFile\TextFile\obj\Debug\TextFile.csproj.CoreCompileInputs.cache
-D:\koodid\9#Polymorphism\TextFile\TextFile\obj\Debug\TextFile.exe
-D:\koodid\9#Polymorphism\TextFile\TextFile\obj\Debug\TextFile.pdb

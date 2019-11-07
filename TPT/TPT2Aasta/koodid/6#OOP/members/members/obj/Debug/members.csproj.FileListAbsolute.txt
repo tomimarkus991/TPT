@@ -1,7 +1,0 @@
-D:\koodid\6#OOP\members\members\bin\Debug\members.exe.config
-D:\koodid\6#OOP\members\members\bin\Debug\members.exe
-D:\koodid\6#OOP\members\members\bin\Debug\members.pdb
-D:\koodid\6#OOP\members\members\obj\Debug\members.csprojAssemblyReference.cache
-D:\koodid\6#OOP\members\members\obj\Debug\members.csproj.CoreCompileInputs.cache
-D:\koodid\6#OOP\members\members\obj\Debug\members.exe
-D:\koodid\6#OOP\members\members\obj\Debug\members.pdb

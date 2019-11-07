@@ -1,7 +1,0 @@
-D:\Eriala tunnid\suvakas\suvakas\obj\Debug\suvakas.csprojAssemblyReference.cache
-D:\Eriala tunnid\suvakas\suvakas\obj\Debug\suvakas.csproj.CoreCompileInputs.cache
-D:\Eriala tunnid\suvakas\suvakas\bin\Debug\suvakas.exe.config
-D:\Eriala tunnid\suvakas\suvakas\bin\Debug\suvakas.exe
-D:\Eriala tunnid\suvakas\suvakas\bin\Debug\suvakas.pdb
-D:\Eriala tunnid\suvakas\suvakas\obj\Debug\suvakas.exe
-D:\Eriala tunnid\suvakas\suvakas\obj\Debug\suvakas.pdb
