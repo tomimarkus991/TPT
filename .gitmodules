@@ -1,6 +1,7 @@
-[submodule "TPT/TPT2Aasta/MobileApps"]
-	path = TPT/TPT2Aasta/MobileApps
+[submodule "TPT/TPT_SecondYear/MobileApps"]
+	path = TPT/TPT_SecondYear/MobileApps
 	url = https://github.com/tomimarkus991/MobileApps
-[submodule "TPT/TPT2Aasta/Tarkvarasysteemid"]
-	path = TPT/TPT2Aasta/Tarkvarasysteemid
+
+[submodule "TPT/TPT_SecondYear/Tarkvarasysteemid"]
+	path = TPT/TPT_SecondYear/Tarkvarasysteemid
 	url = https://github.com/tomimarkus991/Tarkvarasysteemid
