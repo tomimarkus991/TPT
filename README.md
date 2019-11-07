@@ -14,4 +14,4 @@ My buddies from school and I, are working on a School Project named
 ## Nightwatch github repository
 [Nightwatch](https://github.com/nightwatchjs/nightwatch)
 
-Version 0.1.0 release
+Version 0.1.2 release
