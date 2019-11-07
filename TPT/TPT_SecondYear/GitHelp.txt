@@ -1,0 +1,35 @@
+cd (to change directory)
+Use the pwd command to see which path you are currently in
+git init
+git clone<link> (link to repo)
+git remote add origin <link> (link to repo)
+git add .
+git status
+git commit -m "First Commit"
+git status
+rm -f .git/index.lock
+git push --set-upstream origin master
+git branch --set-upstream-to=origin/master master
+
+{git pull
+fatal: refusing to merge unrelated histories
+git pull --allow-unrelated-histories}
+
+git checkout master
+git submodule update
+
+(submodules)
+https://gist.github.com/gitaarik/8735255
+
+git rebase
+
+// kõige viimane commit
+git commit --amend
+esc ja ss :wq to exit vim
+git push origin --force
+
+vana commit ja pushitud
+git rebase -i HEAD~X
+x on kui vana commit
+git commit --amend
+git push origin master --force
