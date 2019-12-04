@@ -20,6 +20,19 @@
                 name: "Tomi",
                 age: 17
             }
+            handleClick(e)
+            {
+                console.log(e.target);
+                // console.log(this.state.age)
+            }
+            handleMouseOver(e)
+            {
+                console.log(e.target, e.pageX);
+            }
+            handleCopy(e)
+            {
+                console.log("Lõpeta copymine palun");
+            }
             render()
             {
                 return (
@@ -27,6 +40,9 @@
                         <h1>Heading</h1>
                         <p>{Math.random() * 10}</p>
                         <p>My name is: {this.state.name} and I am {this.state.age} years old.</p>
+                        <button onClick={this.handleClick}>CLiCk mE!!</button>
+                        <button onMouseOver={this.handleMouseOver}>Hover on me!</button>
+                        <p onCopy={this.handleCopy}>Copy see!</p>
                     </div>
                 )
             }
