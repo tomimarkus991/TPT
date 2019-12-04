@@ -17,19 +17,18 @@
         {
             state =
             {
-                name: "Tomi",
-                age: 17
+                name: "Burger",
+                age: 14
             }
-            handleClick(e)
+            handleClick = (e) =>
             {
-                console.log(e.target);
-                // console.log(this.state.age)
+                console.log(this.state.age + 1);
             }
-            handleMouseOver(e)
+            handleMouseOver = (e) =>
             {
                 console.log(e.target, e.pageX);
             }
-            handleCopy(e)
+            handleCopy = (e) =>
             {
                 console.log("Lõpeta copymine palun");
             }
