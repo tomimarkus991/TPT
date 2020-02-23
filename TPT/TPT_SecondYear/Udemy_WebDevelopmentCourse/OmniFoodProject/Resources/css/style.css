@@ -302,3 +302,47 @@ header
     width: auto;
     margin-right: 10px;
 }
+/*===============================================================================*/
+/* CITIES */
+/*===============================================================================*/
+.section-cities
+{
+    padding: 0px;
+}
+.cities-showcase
+{
+    list-style: none;
+    width: 100%;
+}
+
+.cities-showcase li
+{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.city-photo
+{
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #000;
+}
+.city-photo img
+{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.city-photo img:hover
+{
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.6s;
+}
+.col span-1-of-4 box
+{
+    width: 100%;
+}
