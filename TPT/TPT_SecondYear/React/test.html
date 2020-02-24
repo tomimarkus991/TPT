@@ -16,25 +16,31 @@
     <script type="text/babel">
         class App extends React.Component {
             state = {
-                name: "jun",
-                age: 12
+                name: "Tomi",
+                age: 17
             }
-            handleClick(e)
+            onChanged = (e) =>
             {
-                console.log(this.state)
+                this.setState({
+                    name: e.target.value
+                });
             }
-            funFunction(e)
+            handleSubmit = (e) =>
             {
-                console.log(e.target)
+                e.preventDefault();
+                console.log(this.state.name)
+                this.setState({
+                    name: ""
+                });
             }
             render(){
                 return(
                     <div className="app-content">
-                        <h1>whats up</h1>
-                        <p>{ Math.random() * 100 }</p>
-                        <p>his name is {this.state.name} and age is {this.state.age}</p>
-                        <button onClick={this.handleClick}>Click</button>
-                        <button onMouseLeave={this.funFunction}>fghgghf</button>
+                        <h1>Hi, my name is {this.state.name}</h1>
+                        <form onSubmit={this.handleSubmit}>
+                            <input type = "text" onChange={this.onChanged}/>
+                            <button>Submit</button>
+                            </form>
                     </div>
 
                 )
