@@ -18,8 +18,8 @@ class AddOperator extends Component {
    render() {
       return (
          <div className='AddOp'>
-            <form class='' onSubmit={this.handleSubmit}>
-               <label class='bg-blue-100' htmlFor='name'>
+            <form className='bg-pink-600' onSubmit={this.handleSubmit}>
+               <label className='' htmlFor='name'>
                   Name:
                </label>
                <input type='text' id='name' onChange={this.handleChange} />
@@ -29,7 +29,9 @@ class AddOperator extends Component {
                <br />
                <label htmlFor='belt'>Belt:</label>
                <input type='text' id='belt' onChange={this.handleChange} />
-               <button>Submit</button>
+               <button class='bg-blue-500 hover:bg-blue-700 rounded'>
+                  Submit
+               </button>
             </form>
          </div>
       );
