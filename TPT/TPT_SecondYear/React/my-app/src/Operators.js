@@ -23,7 +23,7 @@ const Operators = ({ operators }) => {
       <div className='operators-list'>
          {operators.map(operator => {
             return operator.age >= 30 ? (
-               <div className='operator' key={operator.id}>
+               <div className='operator block text-gray-700 text-sm font-bold mb-2' key={operator.id}>
                   <div>Name: {operator.name}</div>
                   <div>Age: {operator.age}</div>
                   <div>Belt: {operator.belt}</div>

@@ -20,8 +20,12 @@ class App extends Component {
    render() {
       return (
          <div className='App'>
-            <h1>REact app</h1>
-            <p>Tere tulemasst</p>
+            <h1 className='block text-gray-700 text-lg font-bold mb-10 text-6xl'>
+               React app
+            </h1>
+            <p className='block text-gray-700 text-lg font-bold mb-10'>
+               Tere tulemasst
+            </p>
             <Operators operators={this.state.operators} />
             <AddOperator addOperator={this.addOperator} />
          </div>

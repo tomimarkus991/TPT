@@ -18,18 +18,15 @@ class AddOperator extends Component {
    render() {
       return (
          <div className='AddOp'>
-            <form className='bg-pink-600' onSubmit={this.handleSubmit}>
-               <label className='' htmlFor='name'>
-                  Name:
-               </label>
-               <input type='text' id='name' onChange={this.handleChange} />
+            <form
+               className='bg-white-900 shadow-md rounded px-8 pt-6 pb-8 mb-4'
+               onSubmit={this.handleSubmit}>
+               <input className="mb-4 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type='text' id='name' placeholder="Name" onChange={this.handleChange} />
                <br />
-               <label htmlFor='age'>Age:</label>
-               <input type='text' id='age' onChange={this.handleChange} />
+               <input className="mb-4 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type='text' id='name' placeholder="Age" onChange={this.handleChange} />
                <br />
-               <label htmlFor='belt'>Belt:</label>
-               <input type='text' id='belt' onChange={this.handleChange} />
-               <button class='bg-blue-500 hover:bg-blue-700 rounded'>
+               <input className="mb-4 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type='text' id='name' placeholder="Belt" onChange={this.handleChange} />
+               <button class='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
                   Submit
                </button>
             </form>
