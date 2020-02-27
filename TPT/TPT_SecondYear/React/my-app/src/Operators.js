@@ -1,24 +1,6 @@
 import React from "react";
 
-const Operators = ({ operators }) => {
-   // const operatorsList = operators.map(operator => {
-   //     if(operator.age >= 30)
-   //     {
-   // return (
-   //     <div className="operator" key={operator.id} >
-   //         <div>Name: {operator.name}</div>
-   //         <div>Age: {operator.age}</div>
-   //         <div>Belt: {operator.belt}</div>
-   //     </div>
-   // )
-   //     }
-   //     else
-   //     {
-   //         return null;
-   //     }
-
-   // })
-
+const Operators = ({ operators, deleteOperator }) => {
    return (
       <div className='operators-list'>
          {operators.map(operator => {
@@ -29,6 +11,13 @@ const Operators = ({ operators }) => {
                   <div>Name: {operator.name}</div>
                   <div>Age: {operator.age}</div>
                   <div>Belt: {operator.belt}</div>
+                  <button
+                     className='bg-gray-800 hover:bg-red-600 text-white font-bold py-2 px-4 rounded'
+                     onClick={() => {
+                        deleteOperator(operator.id);
+                     }}>
+                     Delete
+                  </button>
                </div>
             ) : null;
          })}
@@ -36,3 +25,21 @@ const Operators = ({ operators }) => {
    );
 };
 export default Operators;
+
+// const operatorsList = operators.map(operator => {
+//     if(operator.age >= 30)
+//     {
+// return (
+//     <div className="operator" key={operator.id} >
+//         <div>Name: {operator.name}</div>
+//         <div>Age: {operator.age}</div>
+//         <div>Belt: {operator.belt}</div>
+//     </div>
+// )
+//     }
+//     else
+//     {
+//         return null;
+//     }
+
+// })

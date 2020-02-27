@@ -17,6 +17,14 @@ class App extends Component {
          operators: operators
       });
    };
+   deleteOperator = id => {
+      let operators = this.state.operators.filter(operator => {
+         return operator.id !== id;
+      });
+      this.setState({
+         operators: operators
+      });
+   };
    render() {
       return (
          <div className='App'>
@@ -26,7 +34,10 @@ class App extends Component {
             <p className='block text-gray-700 text-lg font-bold mb-10'>
                Tere tulemasst
             </p>
-            <Operators operators={this.state.operators} />
+            <Operators
+               deleteOperator={this.deleteOperator}
+               operators={this.state.operators}
+            />
             <AddOperator addOperator={this.addOperator} />
          </div>
       );
