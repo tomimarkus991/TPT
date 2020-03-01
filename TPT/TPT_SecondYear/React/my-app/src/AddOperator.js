@@ -13,7 +13,15 @@ class AddOperator extends Component {
    };
    handleSubmit = e => {
       e.preventDefault();
-      this.props.addOperator(this.state);
+      if (
+         this.state.name === null ||
+         this.state.age === null ||
+         this.state.belt === null
+      ) {
+         console.log("Something is missing");
+      } else {
+         this.props.addOperator(this.state);
+      }
    };
    render() {
       return (
