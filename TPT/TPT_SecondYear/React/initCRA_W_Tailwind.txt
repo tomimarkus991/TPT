@@ -1,4 +1,5 @@
 yarn create react-app my-app
+cd {name}
 code .
 
 ctrl shift p - command palette
@@ -44,9 +45,13 @@ tailwind.css
 
 
 goto index.js
-switch import './assets/index.css' with import import "./styles/main.css";
+switch import './assets/index.css' with import - import "./styles/main.css";
 
 goto app.js delete logo
+and import only {import React from "react";} should be left
 delete app.css from /src
+delete app.test.js form /src
+delete logo.svg from /src
 
+restart vs code
 all done
