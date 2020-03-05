@@ -1,9 +1,0 @@
-@tailwind base;
-
-h2 {
-    @apply text-xl text-pink-600;
- } 
-
-@tailwind components;
-
-@tailwind utilities;
