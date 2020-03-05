@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -10,14 +10,14 @@ import './style/tailwind.css';
 class App extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <div className='App'>
                     <Navbar></Navbar>
                     <Route exact path='/' component={Home}></Route>
                     <Route path='/about' component={About}></Route>
                     <Route path='/contact' component={Contact}></Route>
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         );
     }
 }
