@@ -1,7 +1,7 @@
 @tailwind base;
 
 h2 {
-   @apply text-xl text-pink-600;
+   @apply text-6xl;
 }
 
 @tailwind components;
