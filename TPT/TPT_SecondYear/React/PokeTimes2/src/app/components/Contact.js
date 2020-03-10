@@ -5,7 +5,7 @@ const Contact = (props) => {
   //    props.history.push("/about");
   // }, 2000);
   return (
-    <div>
+    <div className="text-center">
       <h1>Contact</h1>
       <p>Kontakteeruge minguga meili teel</p>
     </div>
