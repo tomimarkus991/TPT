@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Pokeball from '../images/pokeball.png';
 
 class Home extends Component {
   state = {
@@ -20,8 +21,13 @@ class Home extends Component {
       posts.map((post) => {
         return (
           <div
-            className="text-center m-auto max-w-sm rounded overflow-hidden shadow-lg px-6 py-8"
+            className="overflow-hidden relative text-center mr-auto ml-auto max-w-md rounded shadow-lg px-16 py-8"
             key={post.id}>
+            <img
+              className="absolute opacity-75 mt-1 -ml-40"
+              src={Pokeball}
+              alt="Pokeball image"
+            />
             <div>
               <Link to={'/' + post.id}>
                 <span className="font-bold text-xl mb-2">{post.title}</span>
@@ -37,7 +43,6 @@ class Home extends Component {
     return (
       <div className="text-center">
         <h1>Home</h1>
-        <p>See on meie homepahe</p>
         {postList}
       </div>
     );
