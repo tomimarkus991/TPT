@@ -56,19 +56,6 @@ body {
   background-color: #1a8cff;
   opacity: 1;
 }
-/* .list-unstyled a {
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  font-size: 20px;
-  opacity: 0.6;
-  transition: 0.4s;
-}
-
-.list-unstyled a:hover {
-  color: #e9b003;
-  opacity: 1;
-} */
 .navbar-toggler-icon {
   margin-top: 5px;
 }
@@ -89,7 +76,7 @@ body {
 -------------------------------------------------- */
 .firstSection {
   margin-top: 210px;
-  margin-bottom: 250px;
+  margin-bottom: 100px;
 }
 
 /* AUTOKAUBAD
