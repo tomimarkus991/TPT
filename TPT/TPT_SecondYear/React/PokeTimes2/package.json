@@ -1,11 +1,10 @@
 {
-  "name": "React-Tailwind-etc-Boilerplate",
+  "name": "PokeTimes",
   "version": "1.0.0",
-  "description": "Soon",
+  "description": "Pokemon application",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
-    "start2": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -50,6 +49,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
   }
 }
