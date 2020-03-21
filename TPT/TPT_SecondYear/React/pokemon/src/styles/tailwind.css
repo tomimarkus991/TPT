@@ -1,9 +1,0 @@
-@tailwind base;
-
-h2 {
-   @apply text-6xl;
-}
-
-@tailwind components;
-
-@tailwind utilities;

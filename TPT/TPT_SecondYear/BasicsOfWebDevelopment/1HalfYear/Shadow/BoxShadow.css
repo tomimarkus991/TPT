@@ -1,9 +1,0 @@
-@charset "utf-8";
-
-div {float: left;margin: 10px;height: 120px;width: 120px;border: 1px solid black}
-
-div#box-1{box-shadow: 5px 5px 10px gray}
-
-div#box-2{box-shadow: 10px 10px 10px lime inset}
-
-div#box-3{box-shadow: 0 0 10px 10px aqua}
