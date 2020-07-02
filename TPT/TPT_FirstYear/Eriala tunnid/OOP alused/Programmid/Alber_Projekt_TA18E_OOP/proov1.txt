@@ -1,0 +1,4 @@
+ Rida 1
+Teine rida
+ Kolmas   rida
+Viies ja viimane   rida
